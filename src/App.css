@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  border: black solid 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cards-container {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 48%;
+  height: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: rgb(146, 146, 146) solid 2px;
+  flex-wrap: wrap;
+  overflow: scroll;
+  border-radius: 20px;
+}
+
+.card {
+  margin-top: 2%;
+  width: 48%;
+  height: 31%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 2%;
+  border-bottom: rgb(191, 191, 191) 1px solid;
+}
+
+.map-container {
+  width: 48%;
+  height: 80%;
+  border: rgb(146, 146, 146) solid 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.sport-images {
+  width: 98%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.sport-images img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.informations {
+  width: 98%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.informations h2 {
+  font-weight: bold;
+}
+
+.informations p {
+  font-size: 12px;
+}
+
+/* sizing-of-map-container */
+
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+header {
+  width: 90%;
+  border: solid 1px red;
+}
