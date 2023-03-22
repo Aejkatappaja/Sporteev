@@ -22,7 +22,3 @@ For support, email frank.codingdev@gmail.com.
 ## Tech Stack
 
 **Client:** React
-
-# Sporteev
-
-# sporteev
