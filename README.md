@@ -13,7 +13,7 @@ I converted CSV to JSon to be able to map on the informations contained into it.
 
 ## Demo
 
-![Sporteev](../sporteev/src/assets/sporteev.png?raw=true "sporteev")
+![Sporteev](repository/src/assets/sporteev.png?raw=true "sporteev")
 
 ## Support
 
@@ -24,4 +24,5 @@ For support, email frank.codingdev@gmail.com.
 **Client:** React
 
 # Sporteev
+
 # sporteev
