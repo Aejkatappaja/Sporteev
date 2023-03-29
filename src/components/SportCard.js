@@ -5,7 +5,6 @@ const SportCard = ({ data }) => {
   const convertImagesToArray = (imagesString) => {
     return imagesString.split("|");
   };
-  // Create an array based on url images strings in json
   return (
     <>
       {data.map((item, idx) => {
